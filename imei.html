@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<script type="text/javascript" src="js/imei-generator.js"></script>
+<script type="text/javascript" src="js/JsBarcode.code128.min.js"></script>
+<script>
+  function genImeiAndBarCode() {
+    var imei = imei_gen();
+    document.getElementById('imei_num').value = imei;
+    document.getElementById('imei_num').setAttribute('value',t);
+    JsBarcode('#barcode', imei);
+  }
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Online Random IMEI Number Generator</title>
+</head>
+<br />
+<body>
+  <div>
+      <input type="button" onclick="genImeiAndBarCode()" value="Generate IMEI Number -&gt;" />
+      <input type="text" value="" size="17" id="imei_num" readonly="readonly" />
+  </div>
+  <img id="barcode"/>
+  <br />
+  <br /><i>Script from lazyzhu.com</i>
+</body>
+</html>
