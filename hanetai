@@ -1,0 +1,13 @@
+---
+layout: imports
+
+go-import: "giautm.dev/hanetai git https://github.com/giautm/hanetai"
+go-source: 
+    > 
+      giautm.dev/hanetai
+      _
+      https://github.com/giautm/hanetai/tree/v1{/dir}
+      https://github.com/giautm/hanetai/blob/v1{/dir}/{file}#L{line}
+
+redirect: "https://pkg.go.dev/giautm.dev/hanetai"
+---
