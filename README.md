@@ -6,15 +6,15 @@
 ---
 layout: imports
 
-go-import: "giautm.dev/pkgtest.v1 git https://gopkg.in/giautm/pkgtest.v1"
+go-import: "giautm.dev/pkg git https://gopkg.in/giautm/pkg"
 go-source: 
     > 
-      giautm.dev/pkgtest.v1
+      giautm.dev/pkg
       _
-      https://github.com/giautm/pkgtest/tree/v1{/dir}
-      https://github.com/giautm/pkgtest/blob/v1{/dir}/{file}#L{line}
+      https://github.com/giautm/pkgtest/tree/main{/dir}
+      https://github.com/giautm/pkgtest/blob/main{/dir}/{file}#L{line}
 
-redirect: "https://pkg.go.dev/giautm.dev/pkgtest.v1"
+redirect: "https://pkg.go.dev/giautm.dev/pkg"
 ---
 
 ```
