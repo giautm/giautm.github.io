@@ -1,0 +1,13 @@
+---
+layout: imports
+
+go-import: "giautm.dev/vietqr git https://github.com/giautm/vietqr-client"
+go-source: 
+    > 
+      giautm.dev/vietqr
+      _
+      https://github.com/giautm/vietqr-client/tree/main{/dir}
+      https://github.com/giautm/vietqr-client/blob/main{/dir}/{file}#L{line}
+
+redirect: "https://pkg.go.dev/giautm.dev/vietqr"
+---
